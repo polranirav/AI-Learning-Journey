@@ -1,142 +1,178 @@
-# 🧠 Basics of Python: Hello World & Input/Output
+# 🧠 Basics of Python: Functions
 
-This folder contains the **first five Python programs** every beginner must understand before diving into complex logic. These form the backbone of all future AI, ML, or automation code you'll write.
+This folder covers how to write **reusable blocks of code** using functions. Functions help you avoid repetition, make code more organized, and return useful outputs for further use.
+
+In machine learning, functions are used everywhere — for data cleaning, model training, evaluation, API endpoints, and more.
 
 ---
 
 ## 📌 Programs in This Folder
 
-### 1. `1_hello_world.py`
-
-```python
-print("Hello, World!")
-```
-
-✅ **What it does:**  
-Prints the message to the screen.
-
-🔍 **What happens behind the scenes:**
-- Python code (`.py`) is converted into **bytecode (.pyc)**.
-- Stored in a folder named `__pycache__`.
-- Python Virtual Machine (PVM) reads this bytecode and executes it.
-- Think of it like:  
-  **Source Code → Bytecode → PVM → Machine Code → Output**
-
-💡 **Why important for AI?**  
-All your future models, predictions, and APIs will print logs, messages, and errors — so mastering `print()` is essential.
-
----
-
-### 2. `2_user_input_string.py`
-
-```python
-name = input("Enter your name: ")
-print("Hello", name)
-```
-
-✅ **What it does:**  
-Takes a name as input from the user and prints a greeting.
-
-📌 **How it works:**
-- `input()` pauses the program and waits for user input.
-- The result is always returned as a **string** (even if you type a number).
-
----
-
-### 3. `3_user_input_integer.py`
-
-```python
-age = int(input("Enter your age: "))
-print("You will be", age + 1, "next year.")
-```
-
-✅ **What it does:**  
-Takes an integer from the user, adds 1, and prints the result.
-
-💡 **Why use `int()`?**  
-Because `input()` returns text by default, converting it is important for mathematical operations.
-
----
-
-### 4. `4_multiple_inputs.py`
-
-```python
-name, age = input("Enter name and age separated by space: ").split()
-print("Name:", name)
-print("Age:", age)
-```
-
-✅ **What it does:**  
-Takes two values in a single line and splits them.
-
-⚙️ **How it works:**
-- `.split()` splits the string by default on **spaces**.
-- It returns a list — the values are unpacked into `name` and `age`.
-
----
-
-### 5. `5_type_conversion.py`
-
-```python
-a = int("10")
-b = float("5.5")
-c = str(100)
-print(type(c))  # Output: <class 'str'>
-
-print(a + b)   # 15.5
-print("Age is " + c)  # Age is 100
-```
-
-✅ **What it does:**  
-Shows how to convert data types between `str`, `int`, `float`.
-
-🧠 **Why important in ML?**  
-In real data, you get everything as a string (from CSV files, APIs, etc). You must convert them to numeric types before training models.
-
----
-### 6. `6_formatted_string.py`
+### 1. `1_define_function.py`
 
 Covers:
-- Traditional string printing using commas
-- Newer and cleaner method using **f-strings**
+- How to define a basic function
+- How to call it
 
 Example:
 ```python
-name = "Nirav"
-age = 25
-print(f"Hello {name}, you are {age} years old.")
+def greet():
+    print("Hello, welcome to Python functions!")
+
+greet()
 ```
 
-✅ **What it does:**
-- f-strings are widely used in AI dashboards, logs, and APIs
-- Cleaner syntax, supports inline expressions ({age + 1})
-- Used in Jupyter, Streamlit, FastAPI, etc.
-
-
-## 🎯 Real-World AI/ML Relevance
-
-- ✅ Input/output is needed in every ML model — especially for training and inference.
-- ✅ Type conversion is common when reading real-world datasets.
-- ✅ Console print is your first debugging tool before using loggers.
+💡 This is the foundation for reusable code. Define once, use many times.
 
 ---
 
-## 🧠 Quick Interview Questions (Beginner Level)
+### 2. `2_return_vs_print.py`
 
-1. What is the difference between `input()` and `print()` in Python?
-2. Why does `input()` return a string even if I enter a number?
-3. What is `__pycache__` and why does Python create `.pyc` files?
+Covers:
+- Difference between `return` and `print()`
+
+Example:
+```python
+def add(a, b):
+    return a + b
+```
+
+💡 `print()` only shows output, `return` gives you the value back to reuse later.
+
+---
+
+### 3. `3_default_arguments.py`
+
+Covers:
+- Setting default values for function parameters
+
+Example:
+```python
+def greet(name="Guest"):
+    print("Hello", name)
+```
+
+💡 If no value is passed, it uses the default — great for optional settings in AI/ML configs.
+
+---
+
+### 4. `4_positional_keyword_args.py`
+
+Covers:
+- Calling functions using position and keyword-based arguments
+
+Example:
+```python
+def info(name, age):
+    print(f"{name} is {age} years old")
+```
+
+💡 Helps you control how values are assigned to parameters.
+
+---
+
+### 5. `5_lambda_functions.py`
+
+Covers:
+- Anonymous one-line functions
+
+Example:
+```python
+square = lambda x: x * x
+```
+
+💡 Used for quick calculations inside sorting, filtering, or ML pipeline steps.
+
+---
+
+### 6. `6_variable_scope_in_functions.py`
+
+Covers:
+- Local vs Global variable scope
+
+Example:
+```python
+x = "global"
+
+def print_scope():
+    x = "local"
+```
+
+💡 Scope matters! Avoid bugs caused by variable name conflicts.
+
+---
+
+### 7. `7_args_function.py`
+
+Covers:
+- Passing multiple values using `*args`
+
+Example:
+```python
+def sum_all(*args):
+    return sum(args)
+```
+
+💡 Very useful when number of inputs is unknown (e.g. variable-sized feature lists)
+
+---
+
+### 8. `8_kwargs_function.py`
+
+Covers:
+- Passing multiple named values using `**kwargs`
+
+Example:
+```python
+def print_kwargs(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+```
+
+💡 Used in dynamic config setups, form data, API handling.
+
+---
+
+### 9. `9_yield_function.py`
+
+Covers:
+- Creating a generator using `yield`
+
+Example:
+```python
+def even_generator(limit):
+    for i in range(2, limit + 1, 2):
+        yield i
+```
+
+💡 Generators are memory-efficient — useful for processing large datasets, logs, or batches.
+
+---
+
+## 🎯 Real-World Relevance in AI/ML
+
+- Use `def` to define preprocessing or model training steps
+- Use `return` to output accuracy, predictions, metrics
+- Use `lambda` for quick filters, transformations in pandas or sorting
+- Use `*args` / `**kwargs` in ML config scripts, dynamic APIs
+- Use `yield` to handle big data without loading everything in memory
+
+---
+
+## 🧠 Interview Questions to Practice
+
+1. What’s the difference between `print()` and `return` in a function?
+2. When would you use `*args` and `**kwargs`?
+3. What is the difference between a normal function and a generator (`yield`)?
+4. What happens when you change a global variable inside a function?
 
 ---
 
 ## ✅ Tip
 
-> Use `type()` to quickly debug variable types when writing ML or data processing code.
-
-```python
-print(type(age))  # Output: <class 'int'>
-```
+> Keep your functions short and focused. One function = one task.  
+> Name them based on what they do, like `clean_data()`, `train_model()`, `log_accuracy()`.
 
 ---
 
-📁 **Next Topic:** [2_variables_and_constants →](../02 variables and constants/)
+📁 **Next Topic:** [7_data_structures_intro →](../7 data structures intro/)

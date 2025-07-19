@@ -1,0 +1,11 @@
+🧹 How to safely delete your virtual environment:
+
+1. Deactivate the env (if active):
+   $ deactivate
+
+2. Delete the "venv" folder:
+   - On Windows: Delete venv directory manually
+   - On Unix/macOS:
+     $ rm -rf venv/
+
+NOTE: This will NOT uninstall any global packages — only the isolated environment is removed.
