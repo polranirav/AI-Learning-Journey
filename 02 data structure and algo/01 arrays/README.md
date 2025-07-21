@@ -96,4 +96,4 @@ Covers:
 
 ---
 
-📁 **Next Topic:** [2 linked list →](../2 linked list/)
+📁 **Next Topic:** [2 linked list →](../02%20linked%20list/)

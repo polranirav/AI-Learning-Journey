@@ -131,4 +131,4 @@ print(finalss_config)
 
 ---
 
-📁 **Next Topic:** [4 stack and queue →](../4 stack and queue/)
+📁 **Next Topic:** [4 stack and queue →](../04%20stack%20and%20queue/)

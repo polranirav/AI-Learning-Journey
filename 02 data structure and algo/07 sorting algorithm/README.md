@@ -132,4 +132,4 @@ sorted(models, key=lambda x: x["accuracy"], reverse=True)
 
 ---
 
-📁 **Next Topic:** [8 time complexity and Big O →](../8 time complexity and Big O/)
+📁 **Next Topic:** [8 time complexity and Big O →](../08%20time%20complexity%20and%20Big%20O/)

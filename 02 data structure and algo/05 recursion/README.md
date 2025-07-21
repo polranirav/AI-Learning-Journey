@@ -154,4 +154,4 @@ def trace(n):
 
 ---
 
-📁 **Next Topic:** [6 binary search →](../6 binary search/)
+📁 **Next Topic:** [6 binary search →](../06%20binary%20search/)

@@ -137,4 +137,4 @@ for i in range(5):
 
 ---
 
-📁 **Next Topic:** [6_functions →](../6 functions/)
+📁 **Next Topic:** [6_functions →](../06%20functions/)

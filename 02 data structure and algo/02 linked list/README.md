@@ -105,4 +105,4 @@ def to_array(head):
 
 ---
 
-📁 **Next Topic:** [3 hash table →](../3 hash table/)
+📁 **Next Topic:** [3 hash table →](../03%20hash%20table/)
