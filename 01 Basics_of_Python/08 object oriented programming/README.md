@@ -205,4 +205,4 @@ class SimpleModel:
 
 ---
 
-📁 **Next Topic:** [9 file handling and modules →](../9 file handling and modules/)
+📁 **Next Topic:** [9 file handling and modules →](../09%20file%20handling%20and%20modules/)

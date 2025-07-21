@@ -145,4 +145,4 @@ Example:
 
 ---
 
-📁 **Next Topic:** [8 object oriented programming →](../8 object oriented programming/)
+📁 **Next Topic:** [8 object oriented programming →](../08%20object%20oriented%20programming/)

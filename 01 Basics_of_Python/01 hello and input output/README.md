@@ -175,4 +175,4 @@ def even_generator(limit):
 
 ---
 
-📁 **Next Topic:** [7_data_structures_intro →](../7 data structures intro/)
+📁 **Next Topic:** [7_data_structures_intro →](../07%20data%20structures%20intro/)
