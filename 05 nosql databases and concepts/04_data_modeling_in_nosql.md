@@ -130,4 +130,4 @@ HMSET prediction:user123 timestamp 165123 model_id gpt4 score 0.78
 
 ---
 
-📁 **Next File:** [`5_partitioning_sharding_replication.md`](./5_partitioning_sharding_replication.md)
+📁 **Next File:** [`5_partitioning_sharding_replication.md`](05_partitioning_sharding_replication.md)

@@ -128,4 +128,4 @@ Each inference is stored immediately for debugging, analytics, or model drift de
 
 ---
 
-📁 **Next File:** [`9_interview_questions_nosql.md`](./9_interview_questions_nosql.md)
+📁 **Next File:** [`9_interview_questions_nosql.md`](09_interview_questions_nosql.md)

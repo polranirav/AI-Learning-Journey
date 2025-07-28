@@ -89,4 +89,4 @@ If you're building:
 
 ---
 
-📁 **Next File:** [`4_data_modeling_in_nosql.md`](./4_data_modeling_in_nosql.md)
+📁 **Next File:** [`4_data_modeling_in_nosql.md`](04_data_modeling_in_nosql.md)
