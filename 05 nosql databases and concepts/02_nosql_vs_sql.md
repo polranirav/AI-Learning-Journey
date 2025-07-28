@@ -127,4 +127,4 @@ CREATE TABLE users (
 
 ---
 
-📁 **Next File:** [`3_base_vs_acid.md`](./3_base_vs_acid.md)
+📁 **Next File:** [`3_base_vs_acid.md`](03_base_vs_acid.md)

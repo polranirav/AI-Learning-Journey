@@ -125,5 +125,5 @@ db.experiments.aggregate([
 
 ---
 
-📁 **Next File:** [`8_nosql_in_real_ai_projects.md`](./8_nosql_in_real_ai_projects.md)
+📁 **Next File:** [`8_nosql_in_real_ai_projects.md`](08_nosql_in_real_ai_projects.md)
 ```

@@ -120,4 +120,4 @@ Shard 2  | User 51–100| --->| Node B    |<--+
 
 ---
 
-📁 **Next File:** [`6_cap_theorem.md`](./6_cap_theorem.md)
+📁 **Next File:** [`6_cap_theorem.md`](06_cap_theorem.md)
