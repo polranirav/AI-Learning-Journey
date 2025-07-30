@@ -1,0 +1,87 @@
+# 🔗 Pandas Merge and Join – Combining Datasets for AI Pipelines
+
+This folder teaches you how to combine multiple DataFrames — a common task in real AI/ML workflows like joining predictions with labels, merging features, or stacking experiment results.
+
+---
+
+## 📌 Programs in This Folder
+
+### 1. `1_merge_datasets.py`
+
+Covers:
+- `pd.merge()` with `on="id"` using `inner`, `outer`, `left` joins
+- Equivalent to SQL joins
+
+Used in:
+- Joining predictions with ground truth
+- Matching metadata with labels
+
+---
+
+### 2. `2_merge_on_multiple_keys.py`
+
+Covers:
+- Merge on two or more columns (e.g., `id` + `version`)
+- Composite key joins
+
+Used in:
+- Versioned datasets
+- Time-windowed sensor logs
+- Matching env-dependent records
+
+---
+
+### 3. `3_concat_dataframes.py`
+
+Covers:
+- `pd.concat()` for vertical and horizontal stacking
+- Axis=0 → stack rows; Axis=1 → stack columns
+
+Used in:
+- Combining batches of predictions
+- Model ensemble outputs
+- Merging feature columns from different sources
+
+---
+
+### 4. `4_join_vs_merge.py`
+
+Covers:
+- `.join()` vs. `pd.merge()` differences
+- Index-based vs. column-based joining
+
+Used in:
+- Logs with matching index
+- Quick joins in metrics and evaluation files
+
+---
+
+## 🧠 Real-World Relevance in AI/ML
+
+| Merge Type         | Use Case |
+|--------------------|----------|
+| `merge(inner)`     | Evaluate only matched predictions |
+| `merge(outer)`     | Full audit of predictions + labels |
+| `merge(on=[id, version])` | Multi-key joins for versioned models |
+| `concat(axis=0)`   | Stack rows (batches) together |
+| `concat(axis=1)`   | Combine predictions side-by-side |
+| `.join()`          | Combine logs or indexed tables |
+
+---
+
+## 💬 Interview Questions
+
+1. What’s the difference between `merge()` and `join()` in Pandas?
+2. How do you merge two datasets on multiple columns?
+3. What does `concat()` do and how is it different from merge?
+4. When would you use an outer join in ML?
+
+---
+
+## ✅ Tip
+
+> Always check for missing values or duplicate rows after merges — especially in model evaluations.
+
+---
+
+📁 **Next Topic:** [05 pandas handling missing values →](../05 pandas handling missing values/)
