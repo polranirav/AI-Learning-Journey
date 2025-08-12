@@ -1,0 +1,9 @@
+age,region,gender,contract_type,churn,target,income,score
+25,south,male,monthly,0,0,30000,70
+30,north,female,yearly,1,1,45000,85
+45,east,female,monthly,0,0,50000,60
+28,west,male,yearly,1,1,40000,90
+50,north,female,monthly,0,0,60000,75
+32,east,male,yearly,1,1,55000,88
+22,south,male,monthly,0,0,28000,65
+41,west,female,yearly,1,1,47000,80
