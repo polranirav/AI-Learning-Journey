@@ -1,0 +1,4 @@
+tuning:
+  tonecurve_points: 4
+  seed: 1337
+
