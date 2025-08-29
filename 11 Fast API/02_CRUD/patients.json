@@ -1,0 +1,122 @@
+{
+  "P001": {
+    "patient_id": "P001",
+    "name": "Arjun Mehta",
+    "city": "Toronto",
+    "age": 35,
+    "gender": "Male",
+    "height_m": 1.77,
+    "weight_kg": 51.3,
+    "bmi": 16.4,
+    "verdict": "Underweight"
+  },
+  "P002": {
+    "patient_id": "P002",
+    "name": "Sophia Li",
+    "city": "Vancouver",
+    "age": 61,
+    "gender": "Male",
+    "height_m": 1.63,
+    "weight_kg": 90.7,
+    "bmi": 34.1,
+    "verdict": "Obese"
+  },
+  "P003": {
+    "patient_id": "P003",
+    "name": "Daniel O'Connor",
+    "city": "Montreal",
+    "age": 47,
+    "gender": "Female",
+    "height_m": 1.86,
+    "weight_kg": 68.1,
+    "bmi": 19.7,
+    "verdict": "Healthy"
+  },
+  "P004": {
+    "patient_id": "P004",
+    "name": "Maya Patel",
+    "city": "Calgary",
+    "age": 31,
+    "gender": "Male",
+    "height_m": 1.62,
+    "weight_kg": 77.7,
+    "bmi": 29.6,
+    "verdict": "Overweight"
+  },
+  "P005": {
+    "patient_id": "P005",
+    "name": "Lucas Nguyen",
+    "city": "Ottawa",
+    "age": 64,
+    "gender": "Male",
+    "height_m": 1.87,
+    "weight_kg": 85.6,
+    "bmi": 24.5,
+    "verdict": "Healthy"
+  },
+  "P006": {
+    "patient_id": "P006",
+    "name": "Emma Johnson",
+    "city": "Edmonton",
+    "age": 63,
+    "gender": "Female",
+    "height_m": 1.69,
+    "weight_kg": 66.7,
+    "bmi": 23.4,
+    "verdict": "Healthy"
+  },
+  "P007": {
+    "patient_id": "P007",
+    "name": "Noah Williams",
+    "city": "Winnipeg",
+    "age": 41,
+    "gender": "Male",
+    "height_m": 1.56,
+    "weight_kg": 62.3,
+    "bmi": 25.6,
+    "verdict": "Overweight"
+  },
+  "P008": {
+    "patient_id": "P008",
+    "name": "Olivia Brown",
+    "city": "Halifax",
+    "age": 31,
+    "gender": "Male",
+    "height_m": 1.79,
+    "weight_kg": 74.2,
+    "bmi": 23.1,
+    "verdict": "Healthy"
+  },
+  "P009": {
+    "patient_id": "P009",
+    "name": "Ethan Martin",
+    "city": "Hamilton",
+    "age": 56,
+    "gender": "Female",
+    "height_m": 1.58,
+    "weight_kg": 92.4,
+    "bmi": 37.0,
+    "verdict": "Obese"
+  },
+  "P010": {
+    "patient_id": "P010",
+    "name": "Ava Thompson",
+    "city": "Mississauga",
+    "age": 52,
+    "gender": "Male",
+    "height_m": 1.83,
+    "weight_kg": 86.5,
+    "bmi": 25.8,
+    "verdict": "Overweight"
+  },
+  "P0015": {
+    "name": "nikhil",
+    "city": "string",
+    "age": 40,
+    "gender": "Male",
+    "height_m": 100.0,
+    "weight_kg": 50.0,
+    "bmi": 0.01,
+    "verdict": "Underweight"
+  }
+}

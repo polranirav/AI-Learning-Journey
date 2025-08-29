@@ -1,0 +1,6 @@
+train:
+  pca_variance: 0.95
+  random_seed: 1337
+  cluster_grid: [4, 6, 8]
+  output_dir: data/artifacts
+
