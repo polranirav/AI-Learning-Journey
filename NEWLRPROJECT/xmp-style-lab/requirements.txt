@@ -1,7 +1,0 @@
-# Minimal install for Phase 0 DoD (venv + install + tests)
-click==8.1.7
-PyYAML==6.0.2
-tqdm==4.66.4
-slpp==1.2.3
-pytest==8.2.2
-
