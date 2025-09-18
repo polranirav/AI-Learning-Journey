@@ -1,0 +1,18 @@
+# Core app
+streamlit>=1.49.1
+tiktoken>=0.11.0
+
+# LangChain stack (0.3.x line)
+langchain>=0.3.27
+langchain-core>=0.3.76
+langchain-openai>=0.3.33
+langchain-community>=0.3.29
+langchain-text-splitters>=0.3.11
+
+# Vector DB
+faiss-cpu>=1.8.0.post1
+
+# Transcripts + fallback audio pipeline
+youtube-transcript-api>=1.2.2
+yt-dlp            # let pip grab the newest
+faster-whisper>=1.2.0
