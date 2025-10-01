@@ -1,5 +1,0 @@
-generate:
-  method: gaussian
-  n: 5
-  output_dir: samples
-
